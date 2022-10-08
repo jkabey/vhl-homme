@@ -1,7 +1,4 @@
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
 .row{
 position:relative;
 margin-left:10%;
@@ -24,11 +21,7 @@ background-color:#787878;
 float:left;
 }
 
-/* The following style has an error. Do you know why? */
 
-#clear{
-clear:both; 
-}
 #footer{
  border : solid 1px;
  padding : 10px;
@@ -69,9 +62,5 @@ margin-top:10px;
 
 
 
-/* The following style has an error. Do you know why? */
 
-#clear{
-clear:both; 
-}
  

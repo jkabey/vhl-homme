@@ -30,7 +30,7 @@ float:left;
 #container {
  margin-top :20%;
  margin-left :10%;
- margin-rught:10%
+ margin-right:10%;
  margin-bottom:5%;
 }
 #title{
@@ -40,14 +40,15 @@ float:left;
  padding:10px;
  margin:0px;
  width:100%;
- backgroung-color:lightyellow;
+ background-color:lightyellow;
  text-align: center;
  z-index:10;
-}
+
 font-family: 'JustLettersMedium';
 font-weight: normal;
 font-style: normal;
 font-size: 36px;
+}
 body {
 background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }

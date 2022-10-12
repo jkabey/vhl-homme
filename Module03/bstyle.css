@@ -8,12 +8,10 @@ h1 {
   text-align: center;
   color: blue;
   font-family: "DancingScriptRegular";
-  src: url("/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf") format('truetype');
   font-size: 400%;
 }
 p {
   font-family: "DancingScriptRegular";
-  src: url("/assets/fonts/dancing/6abe34ba1e4054f1d470f5ad3fd2c639/86aadd0451f9e7dafa957e1e61dd2ed7/DancingScriptRegular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
   font-size:200%;

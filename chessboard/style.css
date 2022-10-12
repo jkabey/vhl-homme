@@ -69,7 +69,7 @@ margin-left: 5px;
 margin-top:10px;
 }
 #clear{
-clear:both;
+clear:both;display:block; overflow:hidden; visibility:scroll; height:0px;
 }
 
 

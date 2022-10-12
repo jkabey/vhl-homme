@@ -37,8 +37,6 @@ float:left;
  margin-right:10%;
  margin-bottom:20%;
  height:100%;
-dispalys: flex;
- align-items:center;
  justify-content: center;
 }
 #title{

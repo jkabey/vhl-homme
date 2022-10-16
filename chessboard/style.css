@@ -27,6 +27,8 @@ float:left;
 #footer{
  position: fixed;
  border : solid 1px;
+ botom:0px;
+ left:0px;
  padding : 10px;
  margin : 0px;
  width: 100%;

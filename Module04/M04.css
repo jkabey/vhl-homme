@@ -6,6 +6,7 @@
                               font-style: normal;
                             }
                     #nav {backgound-color: brown;
+			    padding: 0.5em 0;
 		         }
 
 			* {
@@ -33,12 +34,15 @@
 			li {
 				display: inline;
 				padding: 0.5em;}
-			#nav, #footer {
+			 #footer {
 				background-color: darkolivegreen;
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: darkgoldenrod;
-				backgound-image: url("https://wallup.net/digital-art-simple-circle-painting-colorful-simple-background-watercolor-artwork-white-background/")}
-		
+				backgound-image: url("https://wallup.net/digital-art-simple-circle-painting-colorful-simple-background-watercolor-artwork-white-background/")
+		                backgound-size: contain;
+                                backgound-position: right;
+                                backgound-repeat: no-repeat;
+                               }

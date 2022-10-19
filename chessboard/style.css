@@ -28,13 +28,13 @@ float:left;
 
 
 #footer{
- position: absolute;
+ position: relative;
  border : solid 1px;
   bottom:0px;
  left:0px;
  padding : 10px;
  margin : 0px;
- width: 50px;
+ width: 100%;
 
  background-color:lightyellow;
  text-align: center;

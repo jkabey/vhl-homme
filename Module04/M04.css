@@ -1,17 +1,18 @@
 
 
-                    p {
-   font-family: 'Android7Regular';
-   font-weight: normal;
-   font-style: normal;
-}
-
+                    .header {
+                              font-family: 'Android7Regular';
+                              font-weight: normal;
+                              font-style: normal;
+                            }
+                    #nav {backgound-color: brown;
+		         }
 
 			* {
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;}
-			body {
+			body {  background-image: url("https://cdn.wallpapersafari.com/98/40/Cql3rY.jpg")
 				width: 90%;
 				margin: 0 auto;}
 			#content {
@@ -22,16 +23,22 @@
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+			
+			.column1{backgound-color: coral;}
+			.column2{backgound-color: crimson;}
 			.column3 {
+				backgound=color: darkgreen;
 				margin-right: 0%;}
+		
 			li {
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color: #efefef;
+				background-color: darkolivegreen;
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: #efefef;}
+				background-color: darkgoldenrod;
+				backgound-image: url("https://wallup.net/digital-art-simple-circle-painting-colorful-simple-background-watercolor-artwork-white-background/")}
 		

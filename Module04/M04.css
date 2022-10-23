@@ -1,6 +1,6 @@
 
 
-                    header {
+                    #header {
                               font-family: 'Android7Regular';
                               font-weight: normal;
                               font-style: normal;
@@ -10,7 +10,7 @@
 			    margin: 1%;
 		         }
 
-			body{
+			#nav,#feature, #footer{
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;

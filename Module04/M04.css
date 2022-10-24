@@ -1,11 +1,12 @@
 
 
-                    #header {
-                              font-family: 'Android7Regular';
+                  #header {
+                              font-family: "Android7Regular";
                               font-weight: normal;
                               font-style: normal;
                             }
-                    #nav {backgound-color: brown;
+                    #nav {
+                      background-color: brown;
 			    padding: 0.5em 0;
 			    margin: 1%;
 		         }
@@ -14,43 +15,63 @@
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;
-			        background-image: url("https://cdn.wallpapersafari.com/98/40/Cql3rY.jpg")
+			        background-image: url("https://cdn.wallpapersafari.com/98/40/Cql3rY.jpg");
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+        }
 			#content {
-				overflow: auto;}
+				overflow: auto;
+        }
 			#nav, #feature, #footer {
-				margin: 1%;}
-			.article column1, .article column2, .article column3 {
+				margin: 1%;
+        }
+			#article-column1 {
 				width: 31.3%;
 				float: left;
 				margin: 1%;
-                                height:10em;
+        height: 10em;
 				margin-bottom: 1em;
-				background-color: darkgoldenrod;
+				background-color: coral;
+				
+		               }
+        #article-column2 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;
+        height: 10em;
+				margin-bottom: 1em;
+				background-color: crimson;
 				
 		               }
 			
-			.article column1{backgound-color: coral;}
-			.article column2{backgound-color: crimson;}
-			.article column3 {
-				backgound=color: darkgreen;
-				margin-right: 0%;}
+		#article-column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;
+        height: 10em;
+				margin-bottom: 1em;
+				background-color: darkgreen;
+				
+		            }
+             
 		
 			li {
 				display: inline;
-				padding: 0.5em;}
+				padding: 0.5em;
+        }
+        
 			 #footer {
 				background-color: darkolivegreen;
 				padding: 0.5em 0;
-                                 margin: 1%;}
-			#feature, {
+        margin: 1%;
+                        }
+			#feature {
 				height: 10em;
 				margin: 1%;
 				margin-bottom: 1em;
 				background-color: darkgoldenrod;
-				backgound-image: url("https://wallup.net/digital-art-simple-circle-painting-colorful-simple-background-watercolor-artwork-white-background/")
-		                backgound-size: contain;
-                                backgound-position: right;
-                                backgound-repeat: no-repeat;
+				background-image: url("https://wallup.net/wp-content/uploads/2016/05/26/242125-digital_art-simple-circle-painting-colorful-simple_background-watercolor-artwork-white_background.jpg");
+		                background-size: cover;
+                                background-position: right;
+                                background-repeat: no-repeat;
                                }

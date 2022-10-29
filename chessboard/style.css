@@ -3,7 +3,7 @@ html, body{height: 100%;
      margin: 0px;
     }
 row{
-  position: left;
+  position: relative;
   margin-left:10%;
   margin-right:10%;
   }

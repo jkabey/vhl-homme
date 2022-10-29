@@ -29,7 +29,7 @@ row{
  border:solid 1px;
  padding: 10px;
  
- margin-top:80px;
+ margin-top:130px;
  margin-left:0px;
  margin-right:0px;
  margin-bottom:0px;
@@ -52,7 +52,7 @@ row{
  width:100%;
  background-color:lightyellow;
  text-align:center; 
- z-index:1;
+ z-index:10;
 
 font-family: 'JustLettersMedium'; 
  font-weight: normal; 

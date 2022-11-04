@@ -1,3 +1,6 @@
+frmvalidator.addValidation("FirstName","req","Please enter your First Name");
+frmvalidator.addValidation("FirstName","maxlen=40",
+                                          "Max length for FirstName is 40");
 
 //1) Create variable
 var validFirstname=false;

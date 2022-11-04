@@ -8,8 +8,10 @@
     </head>
     <body>
         <h1>CONTACT US FORM</h1>
-        
-            <form action="thankyou.html" onsubmit="return validateForm();">
+	    <div id="errorMessages"></div>
+         <form action="thankyou.html" method="get"name= theContact onsubmit="return validateForm();">
+		    <fieldset>
+			    <legend> User Information</legend>
             <p>
                 <label for='FirstName'>First Name:</label>
                 <input type="text" id="FirstName" name="FirstName" />

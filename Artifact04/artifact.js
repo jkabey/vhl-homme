@@ -67,3 +67,13 @@ if (country === "USA)
 // validate Zipcode according to the rules
 else
 //Zipcode is OK. For example: validZipcode = true;
+    
+    if(theContact, password, value===null ||
+        theContact, password, value=="" ||
+        theContact, password, value, length > 7)
+	erorMessage +=" <p>The Password must be less than and it is required</p>"
+	else
+		validUserPassword = true
+	
+document.getElementById("errorMessages").innerHTML = errorMessages;
+return (valid Username and validuserPassword)

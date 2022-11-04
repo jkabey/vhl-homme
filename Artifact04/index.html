@@ -9,6 +9,7 @@
     <body>
         <h1>CONTACT US FORM</h1>
         <form id="myform" action="ty.html" onsubmit="isValid();">
+            <form action="thankyou.html" onsubmit="return validateForm();">
             <p>
                 <label for='FirstName'>First Name:</label>
                 <input type="text" id="FirstName" name="FirstName" />
@@ -20,6 +21,7 @@
             </p>
         
             <div class="warning" id="submiterror"></div>
+                <div id="errorMessages"></div>
         
         </form>
 

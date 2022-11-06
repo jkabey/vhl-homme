@@ -27,7 +27,7 @@ var validLastname=false;
 var validLastname = document.getElementById("lastname").value;
 
 //3) Do validation
-if (lastname==="null" || lasttname==="" || lastname.length > 20)
+if (lastname==="null" || lastname==="" || lastname.length > 50)
     errorMessages += "<p>The lastname is required and cannot be greater than 50 characters</p>";
 else
    validFirstname = true;
@@ -62,33 +62,25 @@ else
 //...
 
 //-----Username-----//
-if (theContact, username, value, lenght >12 ||
-    theContact, username, value===null ||
-    theContact, username, value==="")
+if (username==="null" || username==="" || username.length > 12))
     errorMessages += "<p> The Username must be less than 12 characters and is required</p>"
     else
     validUsername = true;
 
 //-----Password----//
-if (theContact, Password, value, lenght >7 ||
-    theContact, Password, value===null ||
-    theContact, Password, value==="")
-    errorMessages += "<p> The Password must be less than 12 characters and is required</p>"
+if (password==="null" || password==="" || password.length > 7)
+    errorMessages += "<p> The Password must be less than 7 characters and is required</p>"
     else
     validPassword = true;
 
 //-----City------//
-if (theContact, , value, lenght >12 ||
-    theContact, , value===null ||
-    theContact, , value==="")
-    errorMessages += "<p> The must be less than 12 characters and is required</p>"
+if (firstname==="null" || firstname==="")
+    errorMessages += "<p> This field is required is required</p>"
     else
     validCity = true;
 
 //-----State----//
-if (theContact, , value, lenght >12 ||
-    theContact, , value===null ||
-    theContact, , value==="")
+if (firstname==="null" || firstname==="")
     errorMessages += "<p> This field is required</p>"
     else
     validCity = true;
@@ -116,4 +108,4 @@ if (country === "USA)
 // validate Zipcode according to the rules
 else
 //Zipcode is OK. For example: validZipcode = true;
-//------comments----//
+

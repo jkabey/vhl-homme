@@ -23,7 +23,7 @@ var validFirstname=false;
 var firstname = document.getElementById("firstname").value;
 //3) Do validation
 if (firstname==="null" || 
-firstname==="" || 
+firstname==="" || value.match(letters)||
 firstname.length > 20)
     errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
 else
@@ -81,19 +81,19 @@ if (username==="null" || username==="" || username.length > 12))
     validUsername = true;
 
 //-----Password----//
-if (password==="null" || password==="" || password.length > 7)
+if (password==="null" || password==="" || password.length > 7 || value.match(numbers))
     errorMessages += "<p> The Password must be less than 7 characters and is required</p>"
     else
     validPassword = true;
 
 //-----City------//
-if (firstname==="null" || firstname==="")
+if (city==="null" || city==="")
     errorMessages += "<p> This field is required is required</p>"
     else
     validCity = true;
 
 //-----State----//
-if (firstname==="null" || firstname==="")
+if (state==="null" || state==="")
     errorMessages += "<p> This field is required</p>"
     else
     validCity = true;
@@ -101,24 +101,18 @@ if (firstname==="null" || firstname==="")
 
 //---------Country---------//
   var country = document.getElementById("country").value;
-if (country === "USA)
-// validate Zipcode according to the rules
-else
-//Zipcode is OK. For example: validZipcode = true;
-    
-    if(theContact, password, value===null ||
-        theContact, password, value=="" ||
-        theContact, password, value, length > 7)
-	erorMessage +=" <p>The Password must be less than and it is required</p>"
-	else
-		validUserPassword = true
+if (country==="null" || country==="")
+    errorMessages += "<p> This field is required</p>"
+    else
+    validCountry = true;
 	
-document.getElementById("errorMessages").innerHTML = errorMessages;
-return (valid Username and validuserPassword)
+
 //----  Zipcode---//
 var country = document.getElementById("country").value;
-if (country === "USA)
+if (country === "USA"|| zipcode.lenght>5)
 // validate Zipcode according to the rules
+	 errorMessages += "<p> Zipcode can't be more than 5 digits</p>
 else
-//Zipcode is OK. For example: validZipcode = true;
+//Zipcode is OK.  
+	validZipcode = true;
 

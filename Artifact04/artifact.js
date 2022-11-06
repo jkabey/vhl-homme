@@ -1,7 +1,20 @@
 function validateform(){
-var validFirstname=false;
-var validLastname=false;
-var errorMessage="";	
+var validFirstname= false;
+var validLastname= false;
+var validEmail= false;	
+var validPhone= false;	
+var validUsername= false;	
+var validPassword= false;	
+var validAddress= false;	
+var validCity= false;	
+var validState= false;	
+var validCountry= false;	
+var validZipcode= false;	
+
+var errorMessage="";
+var letters = /^[A-Za-z]+$/;
+vae numbers = /^[0=9]+$/;	
+	
 }
 
 //1) Create variable

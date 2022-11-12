@@ -104,7 +104,9 @@ p {
 	margin: 20px auto 20px auto;
 	min-width: 20%; 
 	max-width: 80%; }
-
+#items{
+       position: inherit;
+}
 #scriptResults {
 	padding-bottom: 10px;}
 

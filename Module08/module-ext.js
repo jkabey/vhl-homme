@@ -1,6 +1,10 @@
-console.log("input", addItem);
+document.getElementById("btnAddElement").addEventListener("click",addItem );
+
+
 function addItem(){
-var newItem = document.getElementById("items").value;
+   document.getElementById("btnAddElement").innerHTML = (newItem);
+var newItem=
+document.getElementById("items").value;
 
 // Create a new element and store it in a variable.
 var newEl = document.createElement('li');

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+//@import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body {
 	background-color: #000;
@@ -111,9 +111,9 @@ p {
 	padding-bottom: 10px;}
 
 /* Small screen - acts like the app would */
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: #584f4d;
+/*@media only screen and (max-width: 500px) {
+   // body {
+      //  background-color: #584f4d;
     }
     #page {
         max-width: 480px;
@@ -132,7 +132,7 @@ p {
     }
 }
 /* Larger screens act like a demo for the app */
-@media only screen and (min-width: 960px) {
+/*@media only screen and (min-width: 960px) {
     #page {
         max-width: 480px;
         margin: 20px auto 20px auto;

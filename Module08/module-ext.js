@@ -1,9 +1,6 @@
 
-   document.getElementById("btnAddElement").addEventListener("click",addItem );
-
-
 function addItem(){
-   document.getElementById("btnAddElement").innerHTML = (newItem);
+   
 var newItem=
 document.getElementById("items").value;
 
@@ -21,12 +18,5 @@ newEl.appendChild(newText);
 var position = document.getElementsByTagName('ul')[0];
 
 // Insert the new element into its position.
-position.appendChild(newEl);
-}
-let btn_element = document.getElementById("btnAddElement");
-  
-        btn_element.addEventListener("click", () => {
-            document.getElementById("items")
-                .innerHTML = "newItem
-";
-        })
+position.appendChild(newEl);}
+

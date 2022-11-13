@@ -1,5 +1,5 @@
-define([$addItem])function ($addItem){
- //document.getElementById("items").innerHTML = "newItem"
+console.log("input", addItem);
+function addItem(){
 var newItem = document.getElementById("items").value;
 
 // Create a new element and store it in a variable.

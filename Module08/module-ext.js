@@ -1,4 +1,4 @@
-function addItem(){
+function $addItem(){
  document.getElementById("items").innerHTML = "newItem"
 var newItem = document.getElementById("items").value;
 

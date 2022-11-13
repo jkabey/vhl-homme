@@ -111,9 +111,9 @@ p {
 	padding-bottom: 10px;}
 
 /* Small screen - acts like the app would */
-/*@media only screen and (max-width: 500px) {
-   // body {
-      //  background-color: #584f4d;
+@media only screen and (max-width: 500px) {
+   body {
+        background-color: #584f4d;
     }
     #page {
         max-width: 480px;

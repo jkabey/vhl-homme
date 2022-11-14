@@ -29,7 +29,7 @@ firstname.length > 20)
 else
    validFirstname = true;
 //4) Send error message to HTML
-document.getElementById("errorMessages").innerHTML = errorMessages;
+document.getElementById("errorMessages").innerHTML = "errorMessages";
 
 //5) return status of each field
 return (validFirstname);
@@ -45,7 +45,7 @@ if (lastname==="null" || lastname==="" || lastname.length > 50)
 else
    validFirstname = true;
 //4) Send error message to HMTL
-document.getElementById("errorMessages").innerHTML = errorMessages;
+document.getElementById("errorMessages").innerHTML = "errorMessages";
 //5) return status of each field
 return (validFirstname && validLastname);
 // Email//
@@ -58,7 +58,7 @@ if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
 else
     //return true; //Or assign the value to a variable. For example//
     validEmail = true
-    document.getElementById("errorMessages").innerHTML = errorMessages;
+    document.getElementById("errorMessages").innerHTML = "errorMessages";
     // Phone //
  var phone = document.getElementById("phone").value;
 if (isNaN(phone) || phone.lenght >15 || phone===null || phone==="")

@@ -20,14 +20,31 @@
                 <li><a href="#">Contact me</a></li>
               <li><a href="#">own</a></li>
             </ul>
-            <a href="#" class="btn">Buy Now</a>
         </nav>
 
         <div class="content">
-            <span class="title">Freelance Web Developer</span>
-            <h1>Hello, I’m <span>Jonathan Mutombo</span></h1>
-            <p>I’m studying Programing at Bellevue College</p>
-            <a href="#" class="btn">Download CV</a>
+            <form action="Thankyou.html" method="get" name="myContact">
+                <p>
+	<label for='firstName'>Enter Last Name :</label>
+	<input type="text" id="firstName" name="firstName" />
+</p>
+                 <p>
+	<label for='lastName'>Enter Last Name :</label>
+	<input type="text" id="lastName" name="lastName" />
+</p>
+<p>
+	<label for='email'>Email (:</label>
+	<input type="text" id="email" name="email" />
+</p>
+
+                <p>
+	<label for='comments'>Comments(Optional)</label>
+  <textarea cols="20" rows="5" id="comments" name="comments"></textarea>
+</p>
+			    <p>
+	<input type="submit" name="submit" value="Submit">
+		</p>
+                </form>
         </div>
     </div>
 

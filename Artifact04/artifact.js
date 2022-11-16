@@ -115,4 +115,5 @@ if (country === "USA"|| zipcode.lenght>5)
 else
 //Zipcode is OK.  
 	validZipcode = true;
+}
 

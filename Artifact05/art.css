@@ -1,6 +1,22 @@
 
-body{
-     height: 200px;
+body {
+    height: 200px;
     background: beige;
     justify-content: center;
-  }
+    }
+    #footer {
+ border: 0px;
+ padding: 0px;
+ 
+
+ text-align:center;
+ 
+ }
+
+ h1{
+   text-align: center
+ }
+.container {
+      display: grid;
+      justify-content: center;
+    }

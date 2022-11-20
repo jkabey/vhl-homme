@@ -3,6 +3,7 @@ body {
     height: 200px;
     background: beige;
     justify-content: center;
+    text-align: center;
     }
     #footer {
  border: 0px;
@@ -13,10 +14,9 @@ body {
  
  }
 
- h1{
-   text-align: center
- }
+
 .container {
-      display: grid;
+      display: content;
       justify-content: center;
+      text-align: center;
     }

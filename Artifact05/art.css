@@ -2,4 +2,5 @@
 body{
      height: 200px;
     background: beige;
+    justify-content: center;
   }

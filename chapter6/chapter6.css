@@ -1,0 +1,15 @@
+table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 300;
+        width: 200;
+        text-align: center;
+     
+}
+.over{
+  opacity:80%;
+  
+}

@@ -1,0 +1,21 @@
+body {
+    height: 200px;
+    background: beige;
+    justify-content: center;
+    text-align: center;
+    }
+    #footer {
+ border: 0px;
+ padding: 0px;
+ 
+
+ text-align:center;
+ 
+ }
+
+
+.container {
+      
+      justify-content: center;
+      text-align: center;
+    }

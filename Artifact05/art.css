@@ -1,4 +1,3 @@
-
 body {
     height: 200px;
     background: beige;
@@ -16,7 +15,7 @@ body {
 
 
 .container {
-      display: content;
+      
       justify-content: center;
       text-align: center;
     }

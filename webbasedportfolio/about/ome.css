@@ -105,7 +105,7 @@ nav ul li a:hover:after{
     margin-bottom: 30px;
 }
 .music{
-display: flex;
+position:bottom;
   align-items: center;
   align-content: bottom; 
   justify-content: bottom; 

@@ -112,7 +112,7 @@ nav ul li a:hover:after{
   left: calc(50% - 150px);
     align-content: right; 
   justify-content: right; 
-    opacity:50%;
+    opacity:100%;
 }
 .coffee-header {
   width: 100%;

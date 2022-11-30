@@ -81,7 +81,7 @@ function ValidateForm() {
     errorMessages += "<p>The Phone number is required </p>";
   else
     validPhone = true;
-  document.getElementById("errorMessages").innerHTML = "errorMessages";
+  document.getElementById("errorMessages").innerHTML = errorMessages;
 
    return (validUsername && validPassword && validFirstname && validEmail &&
   validPhone && validUsername  && validPassword  && validAddress && validCity && validState && validCountry && validZipcode );

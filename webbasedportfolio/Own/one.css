@@ -11,8 +11,12 @@
 p {
         color: hsl(0, 50%, 25%);
         background-color: white;
-    }
-    a {
+        line-height: 1.5;
+   }
+
+  
+
+a {
         text-decoration: none;
         color: hsl(232, 50%, 25%);
         background-color: white;

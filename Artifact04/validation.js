@@ -2,6 +2,7 @@ function ValidateForm() {
   var validUsername= false;
   var validPassword= false;
   var validFirstname= false;
+    var validLastname= false;
   var letters=/^[A-Za-z]+$/;
   var numbers = /^[0=9]+$/;
   var validEmail = false;

@@ -81,6 +81,6 @@ function ValidateForm() {
   else
     validPhone = true;
   
-    (validUsername && validPassword && validFirstname && validEmail &&
+   return (validUsername && validPassword && validFirstname && validEmail &&
   validPhone && validUsername  && validPassword  && validAddress && validCity && validState && validCountry && validZipcode );
 }

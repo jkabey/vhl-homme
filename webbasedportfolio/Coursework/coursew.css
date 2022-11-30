@@ -8,6 +8,10 @@
     background-image: url("https://raw.githubusercontent.com/jkabey/vhl-homme/main/webbasedportfolio/hd-wallpaper-g9a8aa150e_1280.jpg");
 
 }
+
+p {
+  line-height: 1.5;
+}
 a{
     text-decoration: none;
 }

@@ -112,6 +112,6 @@ nav ul li a:hover:after{
 
   align-items: center;
   position: relative;
-  align-content: right; 
-  justify-content: right;
+  
+ justify-content: right;
 }

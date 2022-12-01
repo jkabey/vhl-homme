@@ -109,8 +109,7 @@ nav ul li a:hover:after{
   height: 280px;
   position: relative;
   top: calc(50% - 140px);
-  left: calc(50% - 150px);
-    align-content: right; 
+  left: calc(50% - 150px); 
   justify-content: right; 
     opacity:100%;
 }

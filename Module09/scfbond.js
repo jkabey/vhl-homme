@@ -19,7 +19,7 @@ addEventListener("click", function(event) {
     dot.style.height = dotSize.value + "px";
     dot.style.width = dotSize.value + "px";
 
-    dot.style.background = dotCol.value;
+    dot.style.background = dotColor.value;
 
     dot.style.left = (event.pageX) + "px";
     dot.style.top = (event.pageY) + "px";

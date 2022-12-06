@@ -28,8 +28,14 @@ addEventListener("click", function(event) {
 });
 
 // Clear dots
+var  mybutton = document.querySelector("mybutton");
 mybutton.addEventListener("click", function(event) {
-    var element = document.getElementsByTagName("div");
+
+
+var element = document.getElementsByTagName("div");
+for (index = element.length - 1; index >= 0; index--) {
+    element[index].parentNode.removeChild(element[index]);
+}
     
     for (index = element.length - 1; index >= 0; index--) {
         element[index].parentNode.removeChild(element[index]);

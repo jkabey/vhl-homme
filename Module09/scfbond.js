@@ -1,4 +1,4 @@
-var dotColor = document.getElementById("dotCol");
+var dotColor = document.getElementById("color");
 var dotSize = document.getElementById("dotSize");
 var mybutton = document.getElementById("clearButton");
 

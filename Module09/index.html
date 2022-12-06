@@ -1,40 +1,35 @@
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-
   <head>
+    <!--Meta Information-->
     <meta charset="utf-8">
-    <title>Module09</title>
-    <link rel="stylesheet" href="mod.css" />
-  
-</head>
-<body>
-<p>Click wherever you want.</p>
- <label>Choose a color for the dot </label><br>
-
-<select id="color">
-      <option value="#0000FF">Blue</option>
-      <option value="#FF0000">Red</option>
-      <option value="#FF9900">Orange</option>
-    </select><br>
-
-     <label>Choose a size for the dot </label><br>
-    <select id="size">  
-      <option value="5">5</option>
-      <option value="5">6</option>
-      <option value="7">7</option>
-
-    </select>
-   <div class="dot"> </div>
-    <button id="mybutton"> Clean</button>
-  <script src="scfbond.js"></script>
-</body>
-</html>
-   
-   
-   
-   
-
-   
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Kelley Rosa">
     
+    <!--Link CSS Style Sheet-->
+    <link rel="Stylesheet" href="mod.css" type="text/css">
+    
+    <!--Title Of Webpage-->
+    <title>Module 09</title>
 
+  </head>
+  
+  <body>
+    <p>Click wherever you want.</p><br>
+    <p>Choose a color for the dot</p>
+    <select id="color">
+      <option value="red">red</option>
+      <option value="orange">orange</option>
+      <option value="blue">blue</option>
+    </select>
+    
+    <p>choose a size for the dot</p>
+    <input id="dotSize" type="number" min="8" value="8"> 
+    
+    <button id="clearButton">Clear</button>
+    
+    <script src="scfbond.js"></script>
+
+  </body>
+
+</html>

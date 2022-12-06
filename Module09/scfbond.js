@@ -1,6 +1,6 @@
-var dotColor = document.getElementById("color");
+var dotColor = document.getElementById("dotColor");
 var dotSize = document.getElementById("dotSize");
-var mybutton = document.getElementById("clearButton");
+var mybutton = document.getElementById("mybutton");
 
 // Stop dots on inputs
 dotColor.addEventListener("click", function(event){

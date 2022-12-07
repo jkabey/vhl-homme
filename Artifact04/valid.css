@@ -4,3 +4,7 @@ color:red;
 #footer{
   text-align: center;
 }
+body {
+    height: 200px;
+    background: beige;
+  }
